@@ -8,8 +8,8 @@ body {
   #mainNav .navbar-toggler {
     font-size: 80%;
     padding: 0.75rem;
-    color: #d2009c;
-    border: 1px solid #d2009c; }
+    color: #fd267d;
+    border: 1px solid #fd267d; }
     #mainNav .navbar-toggler:focus {
       outline: none; }
   #mainNav .navbar-brand {
@@ -41,23 +41,23 @@ body {
       #mainNav .nav-link:hover {
         color: rgba(255, 255, 255, 0.75); }
       #mainNav .nav-link:active {
-        color: white; }
+        color: #fd267d; }
     #mainNav.navbar-shrink {
       background-color: rgba(28, 28, 28, 0.8); }
       #mainNav.navbar-shrink .navbar-brand {
-        color: white; }
+        color: #fd267d; }
       #mainNav.navbar-shrink .nav-link {
-        color: white;
+        color: #fd267d;
         padding: 1.5rem 1.5rem 1.25rem;
         border-bottom: 0.25rem solid transparent; }
         #mainNav.navbar-shrink .nav-link:hover {
-          color: #d2009c; }
+          color: #fd267d; }
         #mainNav.navbar-shrink .nav-link:active {
           color: #467370; }
         #mainNav.navbar-shrink .nav-link.active {
-          color: #d2009c;
+          color: #fd267d;
           outline: none;
-          border-bottom: 0.25rem solid #d2009c; } }
+          border-bottom: 0.25rem solid #fd267d; } }
 
 .masthead {
   position: relative;
@@ -110,7 +110,7 @@ body {
 
 /* 
 .btn-primary {
-  background-color: #d2009c;
+  background-color: #fd267d;
 }
 
 .btn-primary:hover {
@@ -142,13 +142,13 @@ body {
 @media (min-width: 992px) {
   .features-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #d2009c; } }
+    border-left: 0.5rem solid #fd267d; } }
 
 @media (min-width: 992px) {
   .features-section .feature-text {
     padding: 5rem; }
     .features-section .feature-text hr {
-      border-color: #d2009c;
+      border-color: #fd267d;
       border-width: .25rem;
       width: 30%; } }
 
@@ -186,14 +186,14 @@ body {
   padding: 5rem 0 0; }
   .contact-section .card {
     border: 0;
-    border-bottom: 0.25rem solid #d2009c; }
+    border-bottom: 0.25rem solid #fd267d; }
     .contact-section .card h4 {
       font-size: 0.8rem;
       font-family: 'Varela Round';
       text-transform: uppercase;
       letter-spacing: 0.15rem; }
     .contact-section .card hr {
-      border-color: #d2009c;
+      border-color: #fd267d;
       border-width: 0.25rem;
       width: 3rem; }
   .contact-section .social {

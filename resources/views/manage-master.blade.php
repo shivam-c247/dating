@@ -1,7 +1,57 @@
 <!-- include header -->
 @include('includes.header')
 <!-- /include header -->
-
+<style>
+body{
+    color:#7b7a7b;
+}
+.bg-dark {
+  background-color: #56243a !important;
+}
+.bg-gray-900 {
+  background-color: #f1f1f1 !important;
+}
+.card, .form-control {
+  background-color: #ffffff;
+}
+.text-gray-300 {
+  color: rgb(237 35 125 / 45%) !important;
+}
+.card .card-header {
+  background-color: #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+}
+.text-gray-200 {
+  color: #ed237d !important;
+}
+.table thead th{
+    border-bottom: 2px solid #dcdcdc;
+    background-color: #dcdcdc;
+}
+.table, .table td, .table th{
+    border: 1px solid #dcdcdc;
+}
+.form-control {
+    border: 1px solid #dcdcdc;
+    color: #6f6f6f;
+}
+.card:focus, .form-control:focus,
+.selectize-input.full,
+.input-group .form-control,
+.input-group-text{
+    background-color:transparent;
+}
+.page-item.disabled .page-link {
+    border-color: #ed237db8;
+    background-color: #ed237db8;
+}
+.page-item.disabled .page-link{
+    color:#fff;
+}
+.input-group-text{
+    border:1px solid #d1d3e2;
+}
+</style>
 <body id="page-top lw-admin-section">
     <!-- Page Wrapper -->
     <div id="wrapper">

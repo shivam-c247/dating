@@ -1,6 +1,58 @@
 <!-- include header -->
 @include('includes.header')
 <!-- /include header -->
+
+<style>
+body{
+color:#666;
+}
+.lw-page-bg {
+    background-color: #56243a !important;
+}
+a.bg-dark:hover, a.bg-dark:focus, button.bg-dark:hover, button.bg-dark:focus {
+    background-color: white !important;
+}
+.sidebar-dark .sidebar-brand {
+    color: #fd267d;
+}
+.topbar.navbar-light .navbar-nav .nav-item .nav-link {
+    color: rgb(237 35 125 / 45%) !important;
+}
+.card, .form-control {
+    background-color: #f1f1f1;
+}
+.card .card-header {
+    background-color: #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+}
+.table thead th{
+    border-bottom: 2px solid #dcdcdc;
+    background-color: #dcdcdc;
+}
+.table, .table td, .table th{
+    border: 1px solid #dcdcdc;
+}
+.form-control {
+    border: 1px solid #dcdcdc;
+    color: #6f6f6f;
+}
+.card:focus, .form-control:focus,
+.selectize-input.full,
+.input-group .form-control,
+.input-group-text{
+    background-color:transparent;
+}
+.page-item.disabled .page-link {
+    border-color: #ed237db8;
+    background-color: #ed237db8;
+}
+.page-item.disabled .page-link{
+    color:#fff;
+}
+.input-group-text{
+    border:1px solid #d1d3e2;
+}
+</style>
 <body id="page-top" class="lw-page-bg lw-public-master">
     <!-- Page Wrapper -->
     <div id="wrapper" class="container-fluid">
