@@ -331,7 +331,7 @@ class TranslationEngine extends BaseEngine implements TranslationEngineInterface
         $headers->set('PO-Revision-Date', now());
         $headers->set('Last-Translator', getUserAuthInfo('profile.full_name'));
         $headers->set('Language', $languageId);
-        // $headers->set('X-Generator', 'LivelyWorks translatext');
+        // $headers->set('X-Generator', 'Chapter 247 translatext');
         $poGenerator = new PoGenerator();
         if ($poGenerator->generateFile($translations, $existingPoFile)) {
             //export to a .mo file:

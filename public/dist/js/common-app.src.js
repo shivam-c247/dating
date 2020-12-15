@@ -2099,7 +2099,7 @@ var RSA = {
 'use strict';
 /**
   * __InputSecurity : 28 NOV 2019
-  * LivelyWorks
+  * Chapter 247
   *
   *-------------------------------------------------------- */
 
@@ -2257,7 +2257,7 @@ var __globals = {
 
 /**
   * Common Functions : 08 JAN 2020
-  * LivelyWorks
+  * Chapter 247
   *
   *-------------------------------------------------------- */
 var __Utils = {
@@ -3275,7 +3275,7 @@ function dtConfig(options, dsOptions) {
 'use strict';
     /**
      * Notification Functions : 11 JAN 2020
-     * LivelyWorks
+     * Chapter 247
      *
      *-------------------------------------------------------- */
     var notyDefaultOptions = {
@@ -3482,7 +3482,7 @@ function subscribeNotification(eventId, pusherAppKey, userUID, notifyCallback, i
 
 /**
 * Pusher Notification Instance
-* LivelyWorks
+* Chapter 247
 *
 *-------------------------------------------------------- */
 configure('');;

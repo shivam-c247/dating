@@ -8,7 +8,7 @@
 namespace App\Yantrana\Support;
 
 /*
- * Refactored & Rewritten by Vinod Raut (vinod@livelyworks.net)
+ * Refactored & Rewritten by Vinod Raut (vinod@Chapter 247.net)
  */
 
 /* Original Developer
@@ -115,7 +115,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: LivelyWorks Translator System\n"';
+"X-Generator: Chapter 247 Translator System\n"';
 
         if (!\str_contains($oldContent, "Project-Id-Version")) {
             fwrite($file, $headMetadata . "\n\n");
