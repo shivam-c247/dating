@@ -714,7 +714,7 @@ select:-webkit-autofill:focus {
       text-decoration: none;
       margin-bottom: 12px;
       display: block;
-      color: #FFFFFA !important;
+      color: #000000 !important;
       border-bottom: 1px solid #898996;
       padding-bottom: 12px;
       font-size: 1.2em;

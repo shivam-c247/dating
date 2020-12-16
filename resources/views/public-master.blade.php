@@ -4,10 +4,13 @@
 
 <style>
 body{
-color:#666;
+color:#fff;
+}
+#wrapper{
+    padding-top:30px;
 }
 .lw-page-bg {
-    background-color: #56243a !important;
+    background: linear-gradient(60deg,#28005f 40%,#8300e5 80%) !important;
 }
 a.bg-dark:hover, a.bg-dark:focus, button.bg-dark:hover, button.bg-dark:focus {
     background-color: white !important;
@@ -19,11 +22,12 @@ a.bg-dark:hover, a.bg-dark:focus, button.bg-dark:hover, button.bg-dark:focus {
     color: rgb(237 35 125 / 45%) !important;
 }
 .card, .form-control {
-    background-color: #f1f1f1;
+    background-color: #fff;
 }
 .card .card-header {
-    background-color: #dcdcdc;
-    border-bottom: 1px solid #dcdcdc;
+    background-color: #f5f5f5;
+    background: radial-gradient(circle at top left,#1a054b 0%,#1d1f8e 100%);
+    border-bottom: 1px solid #f5f5f5;
 }
 .table thead th{
     border-bottom: 2px solid #dcdcdc;
@@ -51,6 +55,9 @@ a.bg-dark:hover, a.bg-dark:focus, button.bg-dark:hover, button.bg-dark:focus {
 }
 .input-group-text{
     border:1px solid #d1d3e2;
+}
+.sidebar-dark .nav-item.active .nav-link, .sidebar-dark .nav-item.active .nav-link i {
+    color: #43fd7c;
 }
 </style>
 <body id="page-top" class="lw-page-bg lw-public-master">

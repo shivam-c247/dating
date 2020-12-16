@@ -3389,7 +3389,11 @@ input[type="button"].btn-block {
 .card-body {
   flex: 1 1 auto;
   min-height: 1px;
-  padding: 1.25rem; }
+  padding: 1.25rem; 
+  color: black;}
+  .card-title {
+    color: #040404;
+  }
 
 .card-title {
   margin-bottom: 0.75rem; }

@@ -44,6 +44,7 @@
 					<!-- /Block User button -->
 				</span>
 				@endif
+				<div class="d-flex justify-content-between">
 				<h4>
 					<?= $userData['fullName'] ?>
 					@if(!__isEmpty($userData['userAge'])) (<span data-model="userData.userAge"><?= $userData['userAge'] ?></span>) @endif
@@ -70,12 +71,11 @@
 						<i class="fas fa-user-check text-info"></i>
 					@endif
 				</h4>
-				<hr>
 				@if((__ifIsset($userProfileData['city']) and __ifIsset($userProfileData['country_name'])))
 				<i class="fas fa-map-marker-alt text-success"></i> 
 				<span class="mr-3"><span data-model="profileData.city"><?= $userProfileData['city'] ?></span>, <span data-model="profileData.country_name"><?= $userProfileData['country_name'] ?></span></span>
 				@endif
-
+				
 				@if($isOwnProfile)
 				<div class="float-right">
 								<!-- total user likes count -->
@@ -92,6 +92,7 @@
 				<!-- /total user visitors count -->
 				</div>
 				@endif
+				</div>
 			</div>
 		</div>
 		<!-- User Profile and Cover photo -->
