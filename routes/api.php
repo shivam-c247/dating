@@ -32,7 +32,7 @@ header("Access-Control-Allow-Headers: Authorization, X-Requested-With, X-XSRF-To
 
 /*
 |--------------------------------------------------------------------------
-| Lw-Dating (Mobile App) Api Routes 
+| 24 7 Dating (Mobile App) Api Routes 
 |--------------------------------------------------------------------------
 */
 

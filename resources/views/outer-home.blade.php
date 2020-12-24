@@ -120,7 +120,7 @@
             </h2>
           <h2 class="text-white mb-4"><?= __tr('Premium Features') ?></h2>
           <div class="text-white-50">
-           <h5 class="lw-feature-items"> <?= __tr('No Ads, Browse in Incognito mode, See Who Likes you, View likes Notifications, Priority In Search Result, Priority In Random User, Audio Call Via Messenger, Video Call Via Messenger, Unlimited User Encounters, Discounts in Stickers & Gifts and Many more ...') ?></h5>
+           <h5 class="lw-feature-items"> <?= __tr('Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis rem id corporis, enim nihil vel nulla minus magni, dolore sequi placeat. Dolor doloribus, eum nisi non magni libero tempora maxime. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis rem id corporis, enim nihil vel nulla minus magni, dolore sequi placeat. Dolor doloribus, eum nisi non magni libero tempora maxime.') ?></h5>
         </div>
       </div>
     </div>
@@ -179,7 +179,7 @@
             <div class="d-flex h-100">
               <div class="features-text w-100 my-auto text-center text-lg-left">
                 <h4 class="text-white"><?= __tr('Complete your profile') ?></h4>
-                <p class="mb-0 text-white-50"><?= __tr('An example of where you can put an image of a features, or anything else, along with a description.') ?></p>
+                <p class="mb-0 text-white-50"><?= __tr('Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis rem id corporis, enim nihil vel nulla minus magni, dolore sequi placeat. Dolor doloribus, eum nisi non magni libero tempora maxime..') ?></p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
@@ -214,7 +214,7 @@
               <h4 class="text-uppercase m-0"><?= __tr('Email') ?></h4>
               <hr class="my-4">
               <div class="small text-white-50">
-                <a href="#">hello@yourdomain.com</a>
+                <a href="#">hello@meet.c247.website</a>
               </div>
             </div>
           </div>
@@ -226,7 +226,7 @@
               <i class="fas fa-mobile-alt text-primary mb-2"></i>
               <h4 class="text-uppercase m-0"><?= __tr('Phone') ?></h4>
               <hr class="my-4">
-              <div class="small text-white-50">+1 (555) 902-8832</div>
+              <div class="small text-white-50">+1 (555) 123-1234</div>
             </div>
           </div>
         </div>

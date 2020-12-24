@@ -627,8 +627,8 @@ use App\Yantrana\Components\User\Repositories\{UserRepository};
     if (!function_exists('noThumbImageURL')) {
         function noThumbImageURL()
         {
-            return url('/imgs/no_thumb_image.jpg');
-            // return url('/imgs/heart-loading.svg');
+            // return url('/imgs/no_thumb_image.jpg');
+            return url('/imgs/heart-loading.svg');
         }
     }
 
@@ -642,7 +642,7 @@ use App\Yantrana\Components\User\Repositories\{UserRepository};
         function noThumbCoverImageURL()
         {
             return url('/imgs/no_thumb_image.jpg');
-            // return url('/imgs/heart-loading.svg');
+            return url('/imgs/heart-loading.svg');
         }
     }
 

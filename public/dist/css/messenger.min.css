@@ -1,5 +1,5 @@
 /*!
- lw-dating by Chapter 247 - https://chapter247.com
+ 24 7 Dating by Chapter 247 - https://chapter247.com
  version: 1.x
  --------------------------------------------------------------------- 
  Build Timestamp: 1588854919

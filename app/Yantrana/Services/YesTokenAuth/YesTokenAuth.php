@@ -120,7 +120,7 @@ class YesTokenAuth
         $this->refreshTokenAfter = array_get($yesTokenConfig, 'refresh_after', (60 * 30));  // 30 mins
 
         //set token time when requested from MOBILE APP
-        if (isset($this->apiRquestFrom) && $this->apiRquestFrom == "LW-DATING-MOBILE-APP") {
+        if (isset($this->apiRquestFrom) && $this->apiRquestFrom == "24 7 Dating-MOBILE-APP") {
         	$this->refreshTokenAfter = array_get($yesTokenConfig, 'refresh_after_for_mobile_app', (24 * 60 * 60 * 7));  // 7 days
         	$this->expirationPeriod = array_get($yesTokenConfig, 'expiration_for_mobile_app', (24 * 60 * 60 * 10)); // 10 days	
         }
